@@ -6,5 +6,5 @@ long long int gcd(long long int a, long long int b){
 }
 int main(){
 long long int a=53,b=106;
-cout<<gcd(a,b);
+cout<<a*b/gcd(a,b);
 }
